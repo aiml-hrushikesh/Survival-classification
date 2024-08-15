@@ -1,0 +1,5 @@
+python -m venv hrushi
+hrushi/Scripts/activate
+pip install -r hrushi\requirements.txt
+flask --app flask.py run
+docker build -t survival . 
