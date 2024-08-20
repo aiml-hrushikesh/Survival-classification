@@ -2,4 +2,5 @@ python -m venv hrushi
 hrushi/Scripts/activate
 pip install -r hrushi\requirements.txt
 flask --app flask.py run
+uvicorn fast:app --reload
 docker build -t survival . 
