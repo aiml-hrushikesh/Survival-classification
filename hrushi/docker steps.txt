@@ -1,0 +1,42 @@
+1  ssh -i "key 1.pem" ec2-user@ec2-52-66-181-248.ap-south-1.compute.amazonaws.com
+    2  cat /etc/os-release 
+    3  rpm
+    4  yum
+    5  yum install docker
+    6  sudo yum install docker
+    7  docker --version
+    8  git clone https://github.com/aiml-hrushikesh/Survival-classification.git
+    9  ls
+   10  cd Survival-classification/
+   11  cd hrushi
+   12  ls
+   13  docker build -t survival .
+   14  docker image list
+   15  docker push survival
+   16  docker login
+   17  docker push survival
+   18  sudo docker push survival
+   19  docker run test survival
+   20  docker run survival
+   21  docker ps
+   22  docker ps -a
+   23  docker run survival -d
+   24  docker push
+   25  docker push --help
+   26  docker push survival
+   27  docker image
+   28  docker images
+   29  docker images rm survival
+   30  docker rm survival
+   31  docker run survival
+   32  docker rmi survival
+   33  docker rm 9d898419e01b
+   34  docker rmi e0b7f84ce4e4
+   35  docker rmi e0b7f84ce4e4 -f
+   36  docker image
+   37  docker login
+   38  docker build -t survival .
+   39  docker push survival
+   40  docker tag survival hkchavan/survival
+   41  docker push hkchavan/survival
+   42  history
